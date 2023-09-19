@@ -1,0 +1,9 @@
+Implementar um biblioteca com as operações básicas de vetores.
+Travessia 
+  Percorre os elementos de um array.
+Inserção
+  Inserir um novo elemento em um array.
+Exclusão
+  Excluir um elemento do array.
+Pesquisando
+  Pesquisar um elemento no array.
