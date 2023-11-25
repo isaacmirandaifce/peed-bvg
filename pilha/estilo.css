@@ -1,0 +1,46 @@
+/* Estilo para o corpo (body) do documento HTML */
+
+body {
+    font-family: Arial, sans-serif;
+    /* Define a fonte para ser usada no corpo do documento como Arial ou uma fonte genérica sem serifa. */
+    margin: 10;
+    /* Adiciona margens padrão do corpo para evitar espaçamento indesejado. */
+}
+
+/* Estilo para a classe 'container' */
+
+.container {
+    display: flex;
+    /* Configura o modelo de layout flexível para o elemento com a classe 'container'. */
+    flex-wrap: wrap; 
+    /* Adiciona quebra de linha quando não há espaço suficiente */
+
+}
+
+/* Estilo para a classe 'col' */
+
+.col {
+    flex: 1;
+    /* Define a flexibilidade do elemento com a classe 'col', permitindo que ele cresça proporcionalmente no modelo de layout flexível. */
+    padding: 20px;
+    /* Adiciona um preenchimento interno de 20 pixels ao redor do elemento com a classe 'col'. */
+    box-sizing: border-box; 
+    /* Evita que o preenchimento afete a largura total */
+
+}
+
+/* Estilo para o elemento com o ID 'stackRepresentation' */
+
+#stackRepresentation {
+    border: 2px solid #ccc;
+    /* Adiciona uma borda de 1 pixel sólido com a cor cinza (#ccc) ao elemento com o ID 'stackRepresentation'. */
+    padding: 10px;
+    /* Adiciona um preenchimento interno de 10 pixels ao redor do elemento com o ID 'stackRepresentation'. */
+    height: 300px;
+    /* Define a altura do elemento com o ID 'stackRepresentation' como 300 pixels. */
+    overflow-y: auto;
+    /* Adiciona uma barra de rolagem vertical automática ao elemento com o ID 'stackRepresentation' se o conteúdo ultrapassar a altura definida. */
+    box-sizing: border-box;
+    /* Evita que a borda afete a altura total */
+
+}

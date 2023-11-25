@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Definição do tipo de documento HTML e especificação da linguagem como inglês -->
+    <meta charset="UTF-8">
+    <!-- Configuração da codificação de caracteres UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <!-- Configuração da visualização para dispositivos móveis -->
+    <link rel="stylesheet" href="estilo.css">
+    <!-- Importação do arquivo de estilo externo "estilo.css" -->
+    <script defer src="pilha.js"></script>
+    <!-- Importação do arquivo de script externo "pilha.js" com a opção "defer" -->
+    <title>Manipulação de Pilha</title>
+    <!-- Título da página exibido na barra de título do navegador -->
+</head>
+<body>
+     <!-- Corpo do documento HTML -->
+    <h1>Operações básicas de uma pilha</h1>
+    <div class="container">
+        <!-- Divisão principal do conteúdo -->
+        <div class="col">
+            <!-- Divisão representando a primeira coluna -->
+            <button onclick="pushElement()">Push</button>
+            <!-- Botão para chamar a função pushElement() -->
+            <button onclick="popElement()">Pop</button>
+            <!-- Botão para chamar a função popElement() -->
+            <button onclick="peekElement()">Peek</button>
+            <!-- Botão para chamar a função peekElement() -->
+            <button onclick="isEmpty()">isEmpty</button>
+            <!-- Botão para chamar a função isEmpty() -->
+            <button onclick="getSize()">Size</button>
+            <!-- Botão para chamar a função getSize() -->
+            <input type="text" id="elementInput" placeholder="Elemento">
+            <!-- Caixa de texto para entrada do usuário com ID "elementInput" e marcador de espaço -->
+        </div>
+        <div class="col" id="stackRepresentation"></div>
+        <!-- Divisão representando a segunda coluna com ID "stackRepresentation" -->
+    </div>
+</body>
+</html>
